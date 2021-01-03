@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Ask question</title> 
+{% endblock %}
+
+{% block body %}
+<br>
+<br>
+<h1>Hi, there!</h1>
+
+    <hr>
+    <h2>Ask a Question:</h2>
+    <form action = "{{url_for('new_post')}}" method='POST'>
+        <label for="Question"></label>
+        <input class="form-control" type="text" name='Question' id='Question' placeholder="Enter your question here." aria-label="Enter Question" required>
+        <br>
+        <input type='submit' value='Submit'>
+    </form>
+    <hr>
+{% endblock %}
