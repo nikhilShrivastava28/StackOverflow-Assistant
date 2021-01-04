@@ -5,7 +5,7 @@
 • The datasets and one of the pickle is in googledrive for which I have shared the link in data folder
 
 
-![](/images/home.png)
+![](/images/hm.png)
 
 ![](/images/prQ.png)
 
